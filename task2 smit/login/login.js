@@ -29,7 +29,7 @@ const Login = ()=>{
     // Signed in 
     const user = userCredential.user;
     Toastify({
-        text: `Login Sucesfuly`,
+        text: `Login Successfully`,
         duration: 3000
         }).showToast();
         console.log(user);
